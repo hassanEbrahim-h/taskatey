@@ -5,8 +5,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:taskaty1/weget/app_bottom.dart';
-class Authscrean extends StatefulWidget {
+import '../widgets/Confirm_section.dart';
+import '../widgets/app_bottom.dart';
+ class Authscrean extends StatefulWidget {
   const Authscrean({super.key});
 
   @override
@@ -69,7 +70,11 @@ class _AuthscreanState extends State<Authscrean> {
                 onPressed: () {
                   pickImage(ImageSource.gallery);
                 },
+
+
+
               ),
+              ConfirmSection(),
             ],
           ),
         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:taskaty1/auth_screan.dart';
+import 'package:taskaty1/screan/auth_screan.dart';
 
 class splah_home extends StatefulWidget {
      const splah_home({super.key});
